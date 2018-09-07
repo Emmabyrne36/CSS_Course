@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 5px 10px 15px 20px;
+    color: white;
+    background-color: cornflowerblue;
+    margin: 50px 15px 10px 5px;
+    height: 300px;
+    width: 48%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* #first-box {
+    display: none;
+} */
+
+/* Often a better way of selecting the last element such
+as adding another class etc. */
+div:last-of-type:hover {
+    color: yellow;
+    background-color: red;
+}
