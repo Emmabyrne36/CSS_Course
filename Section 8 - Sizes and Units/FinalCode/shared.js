@@ -1,0 +1,1 @@
+let backdrop = document.querySelector('.backgrop'); // select the element with a backdrop - query selector will only select the first one
